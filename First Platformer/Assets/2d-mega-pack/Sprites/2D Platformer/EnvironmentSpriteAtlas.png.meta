@@ -10,6 +10,15 @@ TextureImporter:
     21300010: Platform03
     21300012: Platform04
     21300014: BackgroundMountainsBlue
+    21300016: BackgroundMountainPurple
+    21300018: BackgroundMountainOrange
+    21300020: ForeGround
+    21300022: platform01
+    21300024: platform02
+    21300026: platform03
+    21300028: platform04
+    21300030: BackGroundMountainPurple
+    21300032: BackgroundMoutainBlue
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -71,7 +80,7 @@ TextureImporter:
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -82,7 +91,29 @@ TextureImporter:
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -92,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BackgroundMountainsPurple
+      name: BackGroundMountainPurple
       rect:
         serializedVersion: 2
         x: 0
@@ -100,59 +131,59 @@ TextureImporter:
         width: 512
         height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ac15f87dfb3bd84b9c51292809f7af4
+      spriteID: 31672077927091246bb41b6822b860ac
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BackgroundMountainsOrange
+      name: BackgroundMountainOrange
       rect:
         serializedVersion: 2
         x: 0
-        y: 329
+        y: 331
         width: 512
-        height: 91
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e88cc621fe0a4d84a820687d3ca4fc69
+      spriteID: 1bfdc37cfa4ce5048b7080a264f4de54
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Foreground
+      name: ForeGround
       rect:
         serializedVersion: 2
         x: 0
         y: 175
         width: 512
-        height: 60
+        height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b650d3e5560ca7e4a9ac3bde2f3330b7
+      spriteID: 4293ab14773adfd46a789357b2437fd6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Platform01
+      name: platform01
       rect:
         serializedVersion: 2
         x: 2
@@ -160,19 +191,19 @@ TextureImporter:
         width: 24
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f190e28d8f9a46342b1110370d6ade1a
+      spriteID: cefaacc5894dd204fbb90e298ba8cee0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Platform02
+      name: platform02
       rect:
         serializedVersion: 2
         x: 28
@@ -180,19 +211,19 @@ TextureImporter:
         width: 24
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9a84db88ad58c64bb3b3ed6ec822db6
+      spriteID: b23a55f35b01e31458ef8bba1d7287e2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Platform03
+      name: platform03
       rect:
         serializedVersion: 2
         x: 54
@@ -200,19 +231,19 @@ TextureImporter:
         width: 21
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd7d7ea64f603b84ca3bda70a087e6a3
+      spriteID: f7b02c933c8c3ac4b9f269b30d641c4b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Platform04
+      name: platform04
       rect:
         serializedVersion: 2
         x: 77
@@ -220,25 +251,25 @@ TextureImporter:
         width: 19
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a4fcd73baaf78a47919131939eca2d6
+      spriteID: 43bc47e1253e8df4b8cf8b2cd6dc63ce
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BackgroundMountainsBlue
+      name: BackgroundMoutainBlue
       rect:
         serializedVersion: 2
         x: 0
-        y: 237
+        y: 232
         width: 512
-        height: 92
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,7 +277,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b49b49355d0cf4418a7348fd027fd24
+      spriteID: 1294b27676e0f39408c66a406fa28fc8
       vertices: []
       indices: 
       edges: []
