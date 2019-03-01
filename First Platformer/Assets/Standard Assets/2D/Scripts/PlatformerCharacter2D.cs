@@ -30,7 +30,7 @@ namespace UnityStandardAssets._2D
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
 
-            playerGraphics = transform.FindChild("Graphics");
+            playerGraphics = transform.Find("Graphics");
             if(playerGraphics == null)
             {
                 Debug.LogError ("Yo freak out! There is no 'Graphics' object as a child of the player");
